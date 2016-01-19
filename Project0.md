@@ -58,6 +58,7 @@ After Docker is installed, we can test it.
 	Digest: sha256:90ff75c9817102fe0f5f5e9ff823bd0ea5ad05df24a87bd6def6c18f194da8a
 	Status: Downloaded newer image for tp33/django:1.0
 ```
+If your installation worked, but you are getting an error saying ```docker daemon not found```, you should try ```sudo docker pull tp33/django:1.0```. In the next few steps, whenever you encounter the ```docker daemon not found``` error, try putting sudo before the command.
 Docker works in a simiar way to Github. When you type
 ```
     docker pull tp33/django:1.0
